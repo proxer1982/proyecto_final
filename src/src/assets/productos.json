@@ -1,0 +1,23 @@
+[{
+  "id":104,
+  "imagen":"juguete_01.jpg",
+  "cantidad":10,
+  "nombreProducto":"Juguete carrito",
+  "valor":12000,
+  "descripcion":"Carrito para niños entre los 2 y 5 años"
+},{
+  "id":105,
+  "imagen":"juguete_02.jpg",
+  "cantidad":20,
+  "nombreProducto":"Juguete didáctico",
+  "valor":15000,
+  "descripcion":"Jugete para desarrollar las habilidades motríces de nuestros niños"
+},
+{
+  "id":106,
+  "imagen":"juguete_03.jpg",
+  "cantidad":4,
+  "nombreProducto":"Tren constructor",
+  "valor":32000,
+  "descripcion":"Juguete para los niños que aman armar y construir"
+}]

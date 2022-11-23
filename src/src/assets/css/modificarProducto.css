@@ -1,0 +1,18 @@
+.listaBotones {
+    list-style: none;
+    padding-left: 0;
+}
+
+.listaBotones li {
+    padding: 10px;
+}
+
+.listaBotones li .btn {
+    border-bottom: 3px solid #0000000a;
+    border-radius: 0;
+    width: 100%;
+}
+
+.listaBotones li .btn:hover {
+    border-bottom: 3px solid #FF9D00;
+}

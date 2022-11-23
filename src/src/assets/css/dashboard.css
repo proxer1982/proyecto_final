@@ -1,0 +1,42 @@
+.recuadro  {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    background-color: #FFFFFF08;
+}
+
+.recuadro:hover  {
+    border: 1px solid #FF9D00;
+    border-radius: 10px;
+    background-color: #FFFFFF5F;
+}
+
+
+.icon-dash {
+    text-align: center;
+    padding: 30px 20px 5px;
+}
+
+
+.icon-dash * {
+    text-align: center;
+    padding: 20px;
+    color: #FF9D00;
+}
+
+.recuadro .text-dash  {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #565656;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none!important;
+}
+
+.enlace-dash {
+    text-decoration: none!important;
+}
+
+.recuadro:hover .text-dash {
+    color: #000000;
+}

@@ -1,0 +1,47 @@
+.itemCentrado {
+    text-align: center;
+}
+
+.itemDerecha {
+    text-align: right;
+}
+
+.tablaProductos td {
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+
+.cajaimagen {
+    border:1px solid #dedede;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.btncarrito {
+    background-color: #ff9d00;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.btncarrito:hover {
+    background-color: #d48301;
+    color: white;
+}
+
+.btnEliminarProd {
+    background-color: #ff9d00;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnEliminarProd:hover {
+    background-color: #e28c02;
+}
+
+.casillaCantidad {
+    max-width: 45px;
+}
+
+.casillaCantidad input {
+    width: 100% !important;
+}

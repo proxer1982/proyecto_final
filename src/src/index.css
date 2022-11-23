@@ -1,0 +1,30 @@
+body, html {
+  background-color: aliceblue;
+  height: 100%;
+  margin:0;
+  }
+
+  #root {
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  header, footer {
+      background-color: #1F262D;
+      color:aliceblue;
+      text-align: center;
+  }
+  
+  .logo_pri {
+      width: 90%;
+      max-width: 220px;
+  }
+  
+  .txt_derechos {
+      font-size: .7rem;
+      opacity: .5;
+  }
+
+  .fondo-blanco {
+    background-color: aliceblue;
+  }

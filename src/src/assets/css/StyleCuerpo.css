@@ -1,0 +1,55 @@
+.boton-menu {
+    background: transparent;
+    font-size: 1.2rem;
+    margin: 0 12px;
+    border-bottom: 3px solid transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 8px 0;
+    color: #ffffff;
+}
+
+.desplegador-menu{
+    margin: 0 12px;
+}
+
+.desplegador-menu .dropdown-toggle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0 12px;
+}
+
+.desplegador-menu.show .dropdown-toggle {
+    color: #FF9D00;
+}
+
+.boton-menu:hover {
+    border-bottom: 3px solid #FFFFFF;
+    color: #FF9D00;
+}
+
+.boton-menu:focus {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FF9D00;
+}
+
+.casillaCantidad {
+    min-width: 170px;
+}
+
+.espacioCantidad {
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid #dedede;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.espacioCantidad .btn {
+    padding: 3px 8px;
+    color: #a2a2a2;
+}

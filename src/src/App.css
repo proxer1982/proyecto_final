@@ -1,0 +1,85 @@
+.App {
+    min-height: 100vh;
+}
+
+.btnUsuario {
+    padding: 4px;
+    border:none;
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(207, 224, 240);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.btnUsuario:hover {
+    color: #FFFFFF;
+}
+
+.nav-usuario {
+    width: 100%;
+    background:#1F262D;
+}
+
+.nav-usuario .ctn-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btnUsuario.active {
+    color: white !important;
+}
+
+.fondo-oscuro {
+    background:#1F262D;
+}
+
+/*login*/
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.text-center p, .text-center h2 {
+    color:white;
+}
+
+
+.logo-img {
+    width: 60%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.link-registro {
+    color: #FF9D00;
+    text-decoration: none;
+}
+
+.cajaimagen h4 {
+    line-height: 1.1em;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.cajaimagen * {
+    margin-bottom: 2px;
+}
+
+.cajaimagen .precio {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
