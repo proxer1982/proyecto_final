@@ -4,8 +4,12 @@
   "description": "proyecto final",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node":"16.18.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon --exec babel-node server/index.js"
   },
   "author": "developers 3x1",
   "license": "ISC",
