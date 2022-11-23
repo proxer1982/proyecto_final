@@ -1,6 +1,6 @@
-const PORT = 8080
+const PORT = ""
 
-const srvBck = "http://localhost:" + PORT
-const srvFrt = "http://localhost:" + PORT
+const srvBck = "" + PORT
+const srvFrt = "" + PORT
 
 export {srvBck, srvFrt}

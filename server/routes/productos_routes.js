@@ -25,7 +25,9 @@ router.get("/carrito", (req, resp) => {
     resp.sendFile(dirFront + "/build/index.html")
 })
 
-
+router.get("/modificar_productos/:id", (req, resp) => {
+    resp.sendFile(dirFront + "/build/index.html")
+})
 
 router.get("/productos", obtenerProductos)
 router.post("/productos", crearProductos)
